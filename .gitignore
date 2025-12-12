@@ -1,0 +1,28 @@
+# İşletim Sistemi ve IDE Dosyaları
+.DS_Store
+.idea/
+*.swp
+*~
+
+# Python Derleme Çıktıları
+__pycache__/
+*.pyc
+*.o
+*.pyd
+
+# Bağımlılıklar (Sanal Ortamlar)
+venv/
+env/
+.venv/
+
+# Derleme ve Kurulum Dosyaları
+dist/
+build/
+*.egg-info/
+
+# Medya İşleme Dosyaları
+# OpenCV veya MediaPipe ile oluşturulan geçici çıktı dosyaları
+output/
+results/
+*.avi
+*.mp4
